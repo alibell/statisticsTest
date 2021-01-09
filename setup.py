@@ -8,5 +8,5 @@ setup(name='statisticsTest',
         author_email='contact@alibellamine.me',
         description='Additional statistics test absent from Scipy.',
         long_description=open('README.md').read(),
-        packages = find_packages()
+        packages = ["."]
     )
