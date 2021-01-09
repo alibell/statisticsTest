@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
     
     
-setup(name='statistics_test', 
+setup(name='statisticsTest', 
         version='0.0.1',
         license='',
         author='Ali BELLAMINE',
