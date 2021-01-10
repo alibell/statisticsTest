@@ -1,0 +1,32 @@
+# statisticsTest - Documentation
+
+## Getting started
+
+### What is statisticsTest ?
+
+The statisticsTest package contains additional statisticsTest for scipy package.
+
+### What can it do ?
+
+The supported test are :
+- Chi2 square Cochran-Armitage trend test
+
+
+### Installation
+
+Clone the current repository :
+```
+    git clone https://gogs.alibellamine.me/alibell/statisticsTest.git
+```
+
+Install dependencies with pip.
+
+```
+    pip install -r requirements.txt
+```
+
+Then install the library :
+
+```
+    pip install -e .
+```
