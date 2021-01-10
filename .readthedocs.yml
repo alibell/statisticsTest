@@ -7,11 +7,16 @@ version: 2
 
 # Build documentation in the docs/ directory with Sphinx
 sphinx:
+  fail_on_warning: false
+  builder: html
   configuration: _source/conf.py
 
 # Build documentation with MkDocs
 #mkdocs:
 #  configuration: mkdocs.yml
+
+build:
+  image: latest
 
 # Optionally build your docs in additional formats such as PDF
 formats:
