@@ -27,4 +27,5 @@ python:
   version: 3.8
   install:
     - requirements: requirements.txt
-    - -e .
+    - method: pip
+      path: .
