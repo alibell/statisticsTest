@@ -26,4 +26,6 @@ formats:
 python:
   version: 3.8
   install:
-    - requirements: requirements.txt
+    - requirements:
+        - requirements.txt
+        - -e .
